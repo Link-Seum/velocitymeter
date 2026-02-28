@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Download the Velocitymeter plugin for SEUM: Speedrunners from Hell. Advanced features, custom gloves, and speedrun tools.">
+    <title>Velocitymeter | SEUM Speedrunners from Hell</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a id="a-title" href="index.html">
+                <h1>SEUM Speedrunners from Hell</h1>
+            </a>
+            <h2>Stuff for Seum</h2>
+            <section class="nav-links">
+                <a href="index.html" class="btn active">Velocitymeter</a>
+                <a href="update.html" class="btn">Changes logs</a>
+                <a href="gloves.html" class="btn">Custom gloves</a>
+                <a href="roadmap.html" class="btn">V5 Preview</a>
+            </section>
+        </div>
+    </header>
+
+    <div class="container layout-wrapper">
+        <nav class="toc">
+            <div class="sticky-container">
+                <h3>Summary</h3>
+                <ul>
+                    <li><a href="#intro" class="toc-link">What is it?</a></li>
+                    <li><a href="#features" class="toc-link">In Game features</a></li>
+                    <li><a href="#pregame" class="toc-link">Pre-game</a></li>
+                    <li><a href="#editor" class="toc-link">Level Editor</a></li>
+                    <li><a href="#wireframe" class="toc-link">Wireframe</a></li>
+                    <li><a href="#download" class="toc-link">Download</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="main-content">
+          <section id="intro" style="background: rgba(20, 5, 5, 0.6); border: 1px solid #331100; padding: 25px; border-radius: 8px; margin-bottom: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+    <h1 style="margin-top: 0; color: #ff4500;">Velocitymeter</h1>
+    <h3 style="color: #ffaa00;">What is it?</h3>
+    <p style="line-height: 1.7; color: #ddd;">
+        The Velocitymeter is an advanced plugin for <strong>SEUM: Speedrunners from Hell</strong>. 
+        It provides essential tools to track your speed, angles, and jump height in real-time. 
+        Boost your performance with FPS optimization, race ghosts, map shortcuts, and a powerful Level Editor suite.
+    </p>
+    <p style="margin-bottom: 0;">
+        All features and the <a href="#download" style="color: #ff4500; font-weight: bold; text-decoration: underline;">download file</a> are listed below.
+    </p>
+</section>
+            
+            <hr>
+
+            <section id="features">
+                <h2>In Game features</h2>
+                <p>
+                    <img src="./image/velocity.png" alt="VelocityMeter" width="45%">
+                    <img src="./image/velocitymaps.png" alt="VelocityMeter" width="45%">
+                    <img src="./image/velocitytip.png" alt="VelocityMeter" width="45%">
+                    <img src="./image/velocitysettings.png" alt="VelocityMeter" width="45%">
+                </p>
+
+                <h4>🔥 Meter options:</h4>
+                <div class="features-grid">
+                    <div class="feature-card"><strong>⚡ Vspeed</strong><p>Displays both horizontal (hspeed) and vertical (vspeed) velocity.</p></div>
+                    <div class="feature-card"><strong>🏆 PeakSpeed</strong><p>Display your best peak speed above 12.18.</p></div>
+                    <div class="feature-card"><strong>🔄 Auto Reset Peak</strong><p>Every time you hit the floor, the peak speed is reset.</p></div>
+                    <div class="feature-card"><strong>📏 Hspd Threshold</strong><p>Dynamic velocity colors based on custom speed thresholds (Green/Yellow/Red).</p></div>
+                    <div class="feature-card"><strong>⏱️ Calculate Realtime</strong><p>Displays the precise real-time duration of your current run.</p></div>
+                    <div class="feature-card"><strong>🦘 Jump meter</strong><p>Display your jump height.</p></div>
+                    <div class="feature-card"><strong>📐 Display X / Y</strong><p>Shows your precise camera and movement angles.</p></div>
+                    <div class="feature-card"><strong>📊 Last run stats</strong><p>Show additional information of your last run.</p></div>
+                    <div class="feature-card"><strong>📜 Edit range</strong><p>Enables a scrollable leaderboard to browse all player replays.</p></div>
+                    <div class="feature-card"><strong>🚀 FPS Boost</strong><p>Optimizes performance by removing particles, effects, themes, and blood.</p></div>
+                    <div class="feature-card"><strong>👻 Ghost replay</strong><p>Enable it to see the ghost of any player.</p></div>
+                </div>
+
+                <h3>How to use the Ghost feature?</h3>
+                <ol style="color: #ccc; line-height: 1.6;">
+                    <li><strong>Enable</strong> the option in the Velocitymeter menu.</li>
+                    <li><strong>Select</strong> a replay from the leaderboard and load it.</li>
+                    <li><strong>Press</strong> the <code>Shift</code> key to initialize the ghost data.</li>
+                    <li><strong>Start</strong> your run; the ghost will appear automatically.</li>
+                </ol>
+                <p><em>Note: You can customize the ghost's color and opacity in the settings.</em></p>
+
+                <h4>🗺️ Maps Menu:</h4>
+                <div class="features-grid">
+                    <div class="feature-card"><strong>Secret Levels</strong><p>Instantly enter any secret level by clicking its number.</p></div>
+                    <div class="feature-card"><strong>Unreleased</strong><p>Explore official maps that were never publicly released.</p></div>
+                    <div class="feature-card"><strong>Prototypes</strong><p>Access testing environments and prototype maps.</p></div>
+                </div>
+
+                <h4>💡 Game Tips:</h4>
+<div class="features-grid">
+    <div class="feature-card">
+        <strong>Cycles Management</strong>
+        <p>Save and load map cycles.<br>Press <code>Q</code> to save your current cycle, then use <code>A</code> or <code>Scroll</code> to instantly load it.</p>
+    </div>
+    <div class="feature-card">
+        <strong>Hellikus Solutions</strong>
+        <p>Step-by-step solutions and hints for all Hellikus secrets.</p>
+    </div>
+</div>
+
+<h4>⚙️ Settings:</h4>
+<div class="features-grid">
+    <div class="feature-card"><strong>Custom Resolutions</strong><p>Set any game resolution, including non-standard aspect ratios.</p></div>
+    <div class="feature-card"><strong>Keybinds Editor</strong><p>Fully customize the Velocitymeter menu and feature hotkeys.</p></div>
+    <div class="feature-card"><strong>Themes & Colors</strong><p>A complete editor to personalize your menu colors and UI theme.</p></div>
+</div>
+<p style="text-align: center; color: #ff4500;"><strong>⚠️ Important: Always press "Save all settings" to apply your changes permanently.</strong></p>
+            </section>
+
+            <hr>
+
+<section id="pregame">
+    <h2>Pre-game Features</h2>
+    <p><img src="./image/pregame.png" alt="Pre-game Menu Preview" width="100%" loading="lazy"></p>
+    <div class="features-grid">
+        <div class="feature-card">
+            <strong>📅 Seasons Selector</strong>
+            <p>Access old leaderboards and watch replays from previous seasons. <br><em>Note: Official leaderboards prior to Season 7 are no longer available.</em></p>
+        </div>
+        <div class="feature-card">
+            <strong>📜 Leaderboard Range</strong>
+            <p>Instantly jump to any specific rank. Enter a number in the box above the leaderboard to 'scroll' directly to that position.</p>
+        </div>
+    </div>
+</section>
+
+            <hr>
+
+        <section id="editor">
+    <h2>Level Editor Enhancements</h2>
+    <p>The plugin expands the editor's capabilities by adding new assets, custom themes, entity counters, and advanced keybinds for a more efficient workflow.</p>
+    <p><img src="./image/editor1.png" alt="Level Editor UI" width="80%" loading="lazy"></p>
+    <p><img src="./image/menu.png" alt="Editor Menu" width="80%" loading="lazy"></p>
+    <div style="background: rgba(255, 69, 0, 0.1); border: 1px solid #ff4500; padding: 15px; border-radius: 4px; margin: 20px 0;">
+        <p style="color: #ff4500; font-weight: bold; margin: 0; text-align: center;">
+            ⚠️ Warning: Custom LEE items may cause editor instability. Always save your level before adding them!
+        </p>
+    </div>
+    
+
+</section>
+<hr>
+<section id="wireframe">
+    <h2>Wireframe Mode</h2>
+    <p>Analyze level geometry and hidden paths with the built-in Wireframe toggle.</p>
+    <ul style="list-style: none; padding: 0; color: #ccc;">
+        <li><strong>Enable:</strong> Press <code>F8</code></li>
+        <li><strong>Disable:</strong> Press <code>F9</code></li>
+    </ul>
+    <p><em>Pro Tip: For the best visibility, use this mode with "No Theme" and "No Particles" enabled in the settings.</em></p>
+    
+    <div style="display: flex; justify-content: center; margin-bottom: 10px;">
+        <img src="./image/wireframeoption.png" alt="Wireframe Toggle" style="width: 50%; min-width: 150px;" loading="lazy">
+    </div>
+
+    <div style="display: flex; justify-content: center; gap: 0;">
+        <img src="./image/wireframe.png" alt="Wireframe Preview" style="width: 48%; border-right: none;" loading="lazy">
+        <img src="./image/wireframe1.png" alt="Wireframe Detail" style="width: 40%;" loading="lazy">
+    </div>
+</section>
+            <hr>
+
+           <section id="download">
+    <h2>Download & Installation</h2>
+    <div class="install-steps">
+        <h3>⚙️ How to install</h3>
+        <ol>
+            <li><strong>Download</strong> the <code>Assembly-CSharp.dll</code> file below.</li>
+            <li><strong>Locate game folder:</strong> Steam Library > Right-click SEUM > Manage > Browse local files.</li>
+            <li>Navigate to <code>SEUM_Data \ Managed</code>.</li>
+            <li><strong>Backup:</strong> Rename the original <code>Assembly-CSharp.dll</code> to <code>.backup</code>.</li>
+            <li><strong>Replace:</strong> Drop the new <code>Assembly-CSharp.dll</code> into the folder.</li>
+        </ol>
+        <p>Press <code>Y</code> in-game to open the menu or <code>F1</code> for help.</p>
+    </div>
+
+    <div class="download-zone">
+        <a href="./doc/Assembly-CSharp.dll" download class="download-link-img">
+            <img src="./image/filedownload.png" alt="Download Velocitymeter DLL" loading="lazy">
+            <span class="file-name">Assembly-CSharp.dll</span>
+        </a>
+    </div>
+    <p class="uninstall-note"><strong>To uninstall:</strong> Delete the modified file and use "Verify integrity of game files" on Steam.</p>
+</section>
+
+            <hr>
+
+            <h3>Credits</h3>
+            <pre><code>Link | MrGentle | Judgy | chrisstar123 | Sirius | Snail | ZM | Royal | Klooger</code></pre>
+        </main>
+
+        <aside class="sidebar">
+            <div class="sticky-container">
+                <h3 style="margin-top: 0;">External Tools</h3>
+                <a href="https://seum.online/" target="_blank" class="btn" style="display: block; text-align: center; margin-bottom: 15px;">Seum.online<br>(Live Stats)</a>
+                <a href="https://snail489.shinyapps.io/seum_lb_app/" target="_blank" class="btn" style="display: block; text-align: center; margin-bottom: 30px;">Seum History<br>(Seasons tracker)</a>
+                
+                <h3>Steam Live Status <span class="live-dot"></span></h3>
+                <div class="tracker-box">
+                    <div class="tracker-header">
+                        <strong>Players In-Game</strong>
+                    </div>
+                    <p class="tracker-desc" id="steam-players">Counting runners...</p>
+                    <hr style="margin: 10px 0; border-top: 1px solid #333;">
+                    <div class="tracker-header">
+                        <strong>Last App Activity</strong>
+                    </div>
+                    <p class="tracker-desc" id="steam-update-status">Checking Steam...</p>
+                    <div class="tracker-meta">
+                        <a href="https://steamdb.info/app/457210/history/" target="_blank" style="color: #ff8533; font-size: 0.85em;">
+                            ➜ View History on SteamDB
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+    
+<footer style="text-align: center; padding: 50px 0; margin-top: 50px; border-top: 1px solid #222; color: #666; font-family: sans-serif;">
+    <div style="margin-bottom: 10px; color: #ff4500; font-size: 1.2em;">▬</div>
+    <p style="margin: 5px 0;">Made by <strong style="color: #ddd;">Link</strong></p>
+    <p style="margin: 5px 0; font-size: 0.85em; opacity: 0.7;">Contact: <code style="background: #111; padding: 2px 6px; border-radius: 4px; color: #ff8533;">@z.link</code> on Discord</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
